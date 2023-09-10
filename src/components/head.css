@@ -1,0 +1,8 @@
+.both-left-right{
+    width: 90rem;
+    height: 45rem;
+    flex-shrink: 0;
+    background: conic-gradient(from 180deg at 50% 50%, #05422C 299.0754246711731deg, rgba(5, 66, 44, 0.00) 355.3269052505493deg);
+    display: flex;
+    flex-direction: row;
+}

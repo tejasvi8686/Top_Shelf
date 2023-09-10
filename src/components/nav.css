@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.top-bar{
+    background-color: #05422C;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.bar{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: "Lexend";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.bars {
+    color: #FFF;
+    font-family: "Lexend";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    padding: 0.875rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-shrink: 0;
+    width: 16.875;
+    
+}
+.button{
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 100px;
+    background-color: #17AF26;
+
+}
+
+.pics{
+    height: 2.5rem;
+    width: 10.438;
+}
+
+
+.search-bar{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 25rem;
+    height: 3rem;
+    padding: 0.25rem 0.25rem 0.25rem 1.5rem;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 6.25rem;
+    border: 0.063rem solid var(--neutral-50, #F4F4F4);
+    background: #FFF;
+
+}
+
+.forms{
+    flex: 1 0 0;
+    color: #C8C9CB;
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    border: transparent;
+  
+}
+
+.accounts{
+    display: flex;
+    width: 16.875rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    flex-shrink: 0;
+}
+
+.line{
+    width: 1px; 
+    height: 14px; 
+    background: #C8C9CB;
+}
+
+.your{
+    
+    color: #46494F;
+    font-family: "Lexend";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    
+}
+
+
+.icons{
+    display: flex;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.bottom-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 4rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--neutral-50, #F4F4F4);
+    background: var(--neutral-0, #FFF);
+}
+.order-list{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.shop{
+    color: var(--neutral-400, #46494F);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.flower{
+    color: var(--neutral-400, #46494F);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.edibles{
+    color: var(--neutral-400, #46494F);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.concentrates{
+    color: var(--neutral-400, #46494F);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.mushrooms{
+    color: var(--neutral-400, #46494F);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.promations{
+    color: var(--neutral-400, #46494F);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+}
+
+.support{
+    color: var(--neutral-400, #46494F);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+}
+
+.reward{
+    color: var(--neutral-400, #46494F);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+}
+
+.block{
+    color: var(--neutral-400, #46494F);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+
+}
+
