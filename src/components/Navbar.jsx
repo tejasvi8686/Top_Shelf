@@ -2,9 +2,6 @@ import React from "react";
 import "./nav.css";
 import Logo from '../assets/logo.png';
 
-
-
-
 const Navbar = () => {
   return (
     <div>

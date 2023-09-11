@@ -1,8 +1,97 @@
-.both-left-right{
-    width: 90rem;
+.parent-div {
     height: 45rem;
     flex-shrink: 0;
-    background: conic-gradient(from 180deg at 50% 50%, #05422C 299.0754246711731deg, rgba(5, 66, 44, 0.00) 355.3269052505493deg);
+    background: conic-gradient(
+      from 180deg at 50% 50%,
+      #05422C 299.08deg,
+      rgba(5, 66, 44, 0.00) 355.33deg
+    );
     display: flex;
     flex-direction: row;
-}
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .both-left-right {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+  }
+  
+  .left-div {
+    margin-left: 4rem;
+    margin-top: 7.5rem;
+    position: absolute;
+  }
+  
+  .best {
+    color: var(--other-orange, #F2BC1B);
+    font-family: "Lexend";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.25rem;
+  }
+  
+  .buy {
+    color: var(--neutral-0, #FFF);
+    font-family: "Lexend";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -0.25rem;
+    width: 672rem;
+  }
+  
+  .vitmains {
+    color: var(--neutral-50, #F4F4F4);
+    font-family: "Lexend";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.031rem;
+  }
+  
+  .spans {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.375rem;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .get {
+    color: var(--neutral-0, #FFF);
+    font-family: "Lexend";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+  }
+  
+  .straight {
+    width: 1px;
+    height: 14px;
+    background: #C8C9CB;
+  }
+  
+  .btn {
+    display: inline-flex;
+    height: 4rem;
+    padding: 0.5rem 3.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    margin-top: 2.5rem;
+    background: var(--primary-500, #17AF26);
+  }
+
+ 
+  

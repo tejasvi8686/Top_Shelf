@@ -38,6 +38,9 @@
     padding: 0.875rem 4rem;
     justify-content: space-between;
     align-items: center;
+    
+    
+    
 }
 
 .imgs{
@@ -154,6 +157,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
+    list-style: none;
 }
 
 .flower{
@@ -162,7 +166,8 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
+    list-style: none;
 }
 
 .edibles{
@@ -172,6 +177,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
+    list-style: none;
 }
 
 .concentrates{
@@ -181,6 +187,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
+    list-style: none;
 }
 
 .mushrooms{
@@ -190,6 +197,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
+    list-style: none;
 }
 
 .promations{
@@ -198,7 +206,8 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
+    list-style: none; 
 
 }
 
@@ -209,6 +218,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
+    list-style: none;
 
 }
 
@@ -219,6 +229,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
+    list-style: none;
 
 }
 
@@ -229,7 +240,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%; 
-
-
+    list-style: none;
 }
 
+
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    background-color: #ffffff; /* Adjust the background color as needed */
+    width: 100%;
+    z-index: 100;
+    transition: top 0.3s ease;
+  }
