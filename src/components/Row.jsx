@@ -9,7 +9,7 @@ const row = () => {
     <div class="parent-row">
       <div class="row1">
         <div>
-          <img class="img1" src={Button} alt="" />
+          <img class="img1" src={Button} alt="img" />
         </div>
         <div>
           <h5 class="heading">Reliable Shipping</h5>
@@ -22,7 +22,7 @@ const row = () => {
       </div>
       <div class="row1">
         <div>
-          <img class="img1" src={Button2} alt="" />
+          <img class="img1" src={Button2} alt="img" />
         </div>
         <div>
           <h5 class="heading">You’re Safe With Us</h5>
@@ -35,7 +35,7 @@ const row = () => {
       </div>
       <div class="row1">
         <div>
-          <img class="img1" src={Button3} alt="" />
+          <img class="img1" src={Button3} alt="img" />
         </div>
         <div>
           <h5 class="heading">Best Quality & Pricing</h5>
