@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 .parent-div {
     height: 45rem;
     flex-shrink: 0;
@@ -42,8 +44,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: 110%;
-    letter-spacing: -0.25rem;
-    width: 672rem;
+    letter-spacing: -4px;
+    width: 42rem;
   }
   
   .vitmains {
@@ -91,6 +93,12 @@
     border-radius: 6.25rem;
     margin-top: 2.5rem;
     background: var(--primary-500, #17AF26);
+    
+  }
+
+  .btn:hover{
+    background-color: lightgreen;
+    transition: ease-out 1s;
   }
 
  

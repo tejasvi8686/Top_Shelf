@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.big{
+    color: var(--neutral-500, #1A1E26);
+    text-align: center;
+    font-family: "Lexend";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; 
+    height: 140px;
+    letter-spacing: -4px;
+    margin: 120px 246px 64px;
+}

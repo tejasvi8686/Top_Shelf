@@ -1,15 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import "./nav.css";
 import Logo from '../assets/logo.png';
 
 const Navbar = () => {
+  const [isSticky, setIsSticky] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <div>
       <div className="top-bar">
         <p className="bar">LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout.</p>
         <span className="bars">23 : 15 : 00</span>
       </div>
-      <nav className="nav-bar">
+      <nav className={`nav-bar ${isSticky ? 'sticky' : ''}`}>
         <div className="imgs">
           <img className="pics" src={Logo} alt="Logo" />
         </div>

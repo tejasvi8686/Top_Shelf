@@ -1,18 +1,14 @@
-import './App.css';
-import Header from './components/Header';
-import Navbar from "./components/Navbar";
+import "./App.css";
+import Landing from "./components/Landing";
+
 
 
 function App() {
-
-
   return (
     <div>
-      <Navbar />
-      <Header />
-
+     <Landing />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
