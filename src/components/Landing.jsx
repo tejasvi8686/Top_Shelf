@@ -3,6 +3,8 @@ import Header from "./Header";
 import Navbar from "./Navbar";
 import Row from "./row";
 import Canada from "./Canada";
+import List from "./List";
+
 
 const Landing = () => {
   return (
@@ -11,7 +13,7 @@ const Landing = () => {
       <Header />
       <Row />
       <Canada />
-
+      <List />
     </div>
   );
 };

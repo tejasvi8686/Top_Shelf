@@ -1,14 +1,19 @@
-import React from 'react'
+import React from "react";
 import "./canada.css";
 
 const Canada = () => {
   return (
-    <div>
-    <h1 className='big'>BEST DISPENSARY TO BUY WEED ONLINE IN CANADA</h1>
-
-    <ol></ol>
+    <div className="parent-items">
+      <h1 className="big">BEST DISPENSARY TO BUY WEED ONLINE IN CANADA</h1>
+      <div className="items">
+      <button className="list1">Best Sellers</button>
+      <button className="list">Bundles & Promotions</button>
+      <button className="list">On Sale</button>
     </div>
-  )
-}
 
-export default Canada
+      
+    </div>
+  );
+};
+
+export default Canada;

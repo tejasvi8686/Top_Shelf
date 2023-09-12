@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+
+
 .big{
     color: var(--neutral-500, #1A1E26);
     text-align: center;
@@ -8,7 +10,51 @@
     font-style: normal;
     font-weight: 600;
     line-height: 110%; 
-    height: 140px;
     letter-spacing: -4px;
     margin: 120px 246px 64px;
 }
+.items {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .list1 {
+    height: 48px;
+    padding: 8px 20px;
+    gap: 12px;
+    flex: 1 0 0;
+    border-radius: 100px;
+    border: 1px solid var(--secondary-500, #05422C);
+    background: var(--secondary-50, #F2F6F4);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .list1:hover {
+    background-color: var(--secondary-500, #05422C); 
+    color: white; 
+  }
+  
+  .list {
+    height: 48px;
+    padding: 8px 20px;
+    gap: 12px;
+    flex: 1 0 0;
+    border-radius: 100px;
+    border: 1px solid var(--neutral-50, #F4F4F4);
+    background: var(--neutral-0, #FFF);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .list:hover {
+    background-color: var(--neutral-50, #F4F4F4); 
+    color: black; 
+  }
+  
