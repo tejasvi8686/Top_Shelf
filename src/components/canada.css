@@ -11,17 +11,19 @@
     font-weight: 600;
     line-height: 110%; 
     letter-spacing: -4px;
-    margin: 120px 246px 64px;
+    margin-left: 246px;
+    margin-right: 246px;
+    margin-top: 64px;
+    margin-bottom: 48px;
 }
 .items {
     display: flex;
     flex-direction: row;
-    width: 1200px;
     justify-content: center;
     align-items: center;
     gap: 32px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 120px;
+    margin-right: 120px;
   }
   
   .list1 {
@@ -34,6 +36,7 @@
     background: var(--secondary-50, #F2F6F4);
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s; 
+    font-family: "Lexend";
   }
   
   .list1:hover {
@@ -51,10 +54,13 @@
     background: var(--neutral-0, #FFF);
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s; 
+    font-family: "Lexend";
+    
   }
   
   .list:hover {
     background-color: var(--neutral-50, #F4F4F4); 
     color: black; 
+    border: 1px solid black;
   }
   
