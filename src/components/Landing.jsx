@@ -4,6 +4,8 @@ import Navbar from "./Navbar";
 import Row from "./row";
 import Canada from "./Canada";
 import List from "./List";
+import Card from "./card";
+
 
 
 const Landing = () => {
@@ -14,6 +16,7 @@ const Landing = () => {
       <Row />
       <Canada />
       <List />
+      <Card />
     </div>
   );
 };
